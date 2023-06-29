@@ -2,6 +2,15 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+
+* Validation for book availability: When the user tries to borrow a book, the system now checks if the book is available in the library before adding it to the borrowed list. If the book is not available, it shows an alert message.
+
+* Handling borrowing limit: If the user has already borrowed 2 books and tries to borrow another one, an alert message is displayed to indicate that the borrowing limit has been reached.
+
+* Proper error handling: The system now displays appropriate messages to inform the user if any errors or limitations occur.
+
+
 ## Available Scripts
 
 In the project directory, you can run:

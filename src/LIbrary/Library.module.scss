@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    background-image: linear-gradient(45deg, black, transparent);
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;    flex-direction: column;
+    text-align: justify;
+    h1 {
+        font-size: 30px;
+        letter-spacing: 2px;
+        // text-align: ;
+    }
+    h2 {
+        color: #3e3d3d;
+        font-size: 22px;
+        text-decoration: underline;
+    }
+    button {
+        background-color: #242424;
+        color: #abaaaa;
+        margin: 3px;
+        padding: 3px 5px;
+        border: none;
+    }
+    button:hover{
+        background-color: #abaaaa;
+        color: #242424;
+    }
+}
